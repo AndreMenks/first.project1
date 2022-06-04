@@ -34,6 +34,7 @@ header{ /*logo*/
 
 main > p { /*h1 principais*/
     margin: 10px;
+    text-align: center;
     margin-top: 30px;
     padding: 20px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.363);
@@ -46,12 +47,16 @@ nav{ /*conf menu de navegação*/
     width: 100%;
     padding: 10px;
     letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
     
 }
 
 nav > a { /*cores e decoração ao passar */
     color: rgb(250, 250, 250);
+    margin: 10px;
     padding: 10px;
     font-size: 1em;
     font-weight: bold;
@@ -83,25 +88,30 @@ main {
 }
 .logoimg { /*marcasimg*/
     display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-indent: 20px;
+    justify-content: center;
     list-style-type: none;
-    background-color: rgba(128, 128, 128, 0.185);
+    
+    
 }
 
-.maisvendidosp {
+.maisvendidosp /*h1 produtos mais vendidos*/ {
     margin-top: 0%;
     text-align: center;
     margin-bottom: 20px;
 }
-.maisvendidos {
+.maisvendidos /*lista de medicamentos*/ {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px;
+    list-style-type: none;
 
 }
 .logoaval{ /*logodrogazao*/
-    text-align: center;
-    margin: 10px;
+    margin-top: 40px;
     padding: 10px;
     
 }
@@ -113,19 +123,12 @@ main {
     font-family: sans-serif;
 }
 
-.avaliaçao {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    
-}
-.feedb {
+.feedb /*img do feed*/{
     display:flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 10px;
     list-style: none;
-    background-color: var(--cor0);
        
 }
 
