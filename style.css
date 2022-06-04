@@ -35,6 +35,7 @@ header{ /*logo*/
 main > p { /*h1 principais*/
     margin: 10px;
     margin-top: 30px;
+    padding: 20px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.363);
     font-family: sans-serif;
     
@@ -42,17 +43,18 @@ main > p { /*h1 principais*/
 
 
 nav{ /*conf menu de navegação*/
-    overflow: hidden;
-    margin: auto;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
+    letter-spacing: 2px;
+    
+    
     
     
 }
 
 nav > a { /*cores e decoração ao passar */
     color: rgb(250, 250, 250);
-    padding: 5px;
+    padding: 10px;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
@@ -66,16 +68,12 @@ nav > a:hover { /*decoração*/
     
 }
 .salsep1 { /*imgsalsep*/
-    
+    background-color:white;
     
 }
 .logoimg { /*marcasimg*/
     display: flex;
-    padding: 10px;
-    margin: 10px;
     list-style-type: none;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: rgba(128, 128, 128, 0.185);
 }
 
