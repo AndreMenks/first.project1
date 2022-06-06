@@ -31,6 +31,11 @@ header{ /*logo*/
     min-height: 150px;  
     padding-top: 40px; 
 }
+form {
+    color: white;
+    padding: 10px;
+}
+
 
 main > p { /*h1 principais*/
     margin: 10px;
