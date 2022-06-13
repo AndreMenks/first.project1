@@ -138,9 +138,8 @@ main {
     font-family: sans-serif;
 }
 
-.feedb {/*img do feed*/
-    list-style: none;
-    position: absolute;  
+.feedb {/*img do feed, Criar img passando na horizontal, aprender!!!*/
+    list-style: none;  
        
 }
 
