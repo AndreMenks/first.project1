@@ -136,8 +136,6 @@ main {
     text-indent: 20px;
     justify-content: center;
     list-style-type: none;
-    
-    
 }
 
 .maisvendidosp /*h1 produtos mais vendidos*/ {
@@ -166,11 +164,23 @@ main {
     font-family: sans-serif;
 }
 
-.feedb {/*img do feed, Criar img passando na horizontal, aprender!!!*/
-    list-style: none;  
-       
+.feed {/*img do feed, Criar img passando na horizontal, aprender!!!*/
+    list-style: none;
+    width: 700px;
+    height: 650px;
+    background-color: rgb(5, 4, 4);  
 }
-
+.feed .feedimg{
+    width: 500%;
+    padding: 10px;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite; 
+}
+.feed .feedimg img{
+    width: 19,3%;
+    height: 300px;
+}
 footer {
     background-color: black;
     color: #ffffff;
