@@ -87,7 +87,7 @@ nav > a:hover { /*decoração*/
 }
 main {
     min-width: 300px; /*medidas padrão de um site responsivo*/
-    max-width: 1000px;/*medida padrão de um site responsivo*/
+    max-width: 1230px;/*medida padrão de um site responsivo*/
     background-color: white;/*cor de fundo*/
     margin: auto; /*margem auto dentro da box*/
     margin-bottom: 30px; /*largura da box*/
@@ -97,37 +97,9 @@ main {
     border-bottom-right-radius: 10px ; /*borda arredondada para direita*/
     
 }
-
-.galery { /*carrossel.img*/
-    width: 900px;
-    height: 350px;
-    background-color: rgb(250, 250, 250);
-    overflow: hidden;
-    margin: auto;
-}
-
-.galery .fotos { /*carrossel.img*/
-    width: 400%;
-    padding: 10px;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.galery .fotos img { /*carrossel.img*/
-    width: 19,3%;
-    height: 300px;
-}
-@keyframes animacao {
-    0% { margin-left: 0; }
-    20% { margin-left: 0; }
-    25% { margin-left: -100%; }
-    45% { margin-left: -100%; }
-    50% { margin-left: -200%; }
-    70% { margin-left: -200%; }
-    75% { margin-left: -300%; }
-    95% { margin-left: -300%; }
-    100% { margin-left: -400%; }
+.galery{
+    margin: 10px;
+    text-align: center;
 }
 .logoimg { /*marcasimg*/
     display: flex;
@@ -164,29 +136,19 @@ main {
     font-family: sans-serif;
 }
 
-.feed {/*img do feed, Criar img passando na horizontal, aprender!!!*/
+.feed {
+    background-color: rgb(255, 255, 255);  
     list-style: none;
-    width: 700px;
-    height: 650px;
-    background-color: rgb(5, 4, 4);  
+    overflow: hidden;
+    justify-content: cent
 }
-.feed .feedimg{
-    width: 500%;
-    padding: 10px;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite; 
-}
-.feed .feedimg img{
-    width: 19,3%;
-    height: 300px;
-}
+ 
 footer {
     background-color: black;
     color: #ffffff;
     text-align: center;
-    font-size: 70%;
-    padding: 5px;
+    font-size: 80%;
+    padding: 10px;
     font-family: sans-serif;
 }
 footer a { 
