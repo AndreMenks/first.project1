@@ -36,6 +36,10 @@ form {
     color: white;
     margin-top: 10px;
 }
+button {
+    margin: 10px;
+        
+}
 input{
     width: 50%;
     text-align: center;
