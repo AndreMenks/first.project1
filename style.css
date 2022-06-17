@@ -72,8 +72,7 @@ nav{ /*conf menu de navegação*/
 
 nav > a { /*cores e decoração ao passar */
     color: rgb(0, 0, 0);
-    margin: 15px;
-    font-size: 1em;
+    margin: 5px;
     text-decoration: none;
     transition-duration: 1.0s;
     
@@ -89,12 +88,13 @@ main {
     background-color: white;/*cor de fundo*/
     margin: auto; /*margem auto dentro da box*/
     margin-bottom: 30px; /*largura da box*/
-    padding: 60px; /*espaçamento da box*/
+    padding: 90px; /*espaçamento da box*/
     box-shadow: 0px 0px 10px rgb(10, 10, 10); /*sombra da box*/
     border-bottom-left-radius: 10px; /*borda arredondada para esquerda*/
     border-bottom-right-radius: 10px ; /*borda arredondada para direita*/
     
 }
+
 .galery{
     margin: 10px;
     text-align: center;
