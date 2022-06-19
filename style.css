@@ -49,12 +49,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
+.topnav /*Menu de nav*/{
   overflow: hidden;
   background-color: #f5f5e7;
 }
 
-.topnav a {
+.topnav a /*Menu de nav*/{
   float: left;
   display: block;
   color: black;
@@ -64,28 +64,28 @@ body {
   font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav a:hover /*Menu de nav,efeitos*/{
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+.topnav a.active /*Efeito de nav,Menu*/{
   background-color: #f0f321;
   color: rgb(0, 0, 0);
 }
 
-.topnav .search-container {
+.topnav .search-container /*caixa de pesquisa de nav*/ {
   float: right;
 }
 
-.topnav input[type=text] {
+.topnav input[type=text] /*caixa de pesquisa de nav*/ {
   padding: 8px;
   margin-top: 6px;
   font-size: 20px;
   border: none;
 }
 
-.topnav .search-container button {
+.topnav .search-container button /*Botão de pesquisa de nav*/{
   float: right;
   padding: 9px 18px;
   margin-top: 6px;
@@ -96,7 +96,7 @@ body {
   cursor: pointer;
 }
 
-.topnav .search-container button:hover {
+.topnav .search-container button:hover /*Efeito botão de pesquisa de nav*/{
   background: rgb(255, 255, 255);
 }
 
@@ -118,12 +118,11 @@ body {
 }
 main {
     min-width: 500px; /*medidas padrão de um site responsivo*/
-    max-width: 1330px;/*medida padrão de um site responsivo*/
+    max-width: 1300px;/*medida padrão de um site responsivo*/
     background-color: white;/*cor de fundo*/
     margin: auto; /*margem auto dentro da box*/
-    margin-bottom: 10px; /*largura da box*/
+    margin-bottom: 5px; /*largura da box*/
     padding: 90px; /*espaçamento da box*/
-    box-shadow: 0px 0px 10px rgb(10, 10, 10); /*sombra da box*/
     border-bottom-left-radius: 10px; /*borda arredondada para esquerda*/
     border-bottom-right-radius: 10px ; /*borda arredondada para direita*/
     
