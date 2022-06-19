@@ -129,12 +129,12 @@ main {
 }
 
 .galery {
-    background-color: #0D0D0D;
+    background-color: white;
+    
 }
 .fotos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   text-align: auto;
+   margin: 10px;
     
 
 }
