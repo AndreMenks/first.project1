@@ -132,9 +132,10 @@ main {
     background-color: white;
     
 }
-.fotos {
-   text-align: auto;
+.fotos { /*hours*/
    margin: 10px;
+   max-width: 100%;
+   height: auto;
     
 
 }
@@ -172,13 +173,13 @@ main {
     padding: 10px;
     color: rgb(0, 0, 0);
     font-family: sans-serif;
+  
 }
 
 .feed {
     background-color: rgb(255, 255, 255);  
     list-style: none;
     overflow: hidden;
-    justify-content: cent
 }
  
 footer {
