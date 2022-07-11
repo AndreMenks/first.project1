@@ -142,7 +142,6 @@ main {
 }
 
 .maisvendidosp /*h1 produtos mais vendidos*/ {
-    margin-top: 0%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -155,27 +154,21 @@ main {
 
 }
 .logoaval{ /*logodrogazao*/
-    margin-top: 40px;
-    padding: 10px;
+    text-align: center;
     
 }
 .h1avaliaçao { /*h1*/
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: rgb(0, 0, 0);
     font-family: sans-serif;
   
 }
 
-.feed {
-    background-color: rgb(255, 255, 255);  
-    list-style: none;
-    max-width:100px;
-    max-height:700px;
-    width: auto;
-    height: auto;
-    
+.feedb {
+
+     
 }
 
  
