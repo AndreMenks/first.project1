@@ -31,16 +31,7 @@ header{ /*menu completo*/
    height: 85px;
    background-color:black;
 }
-    
-main > p { /*h1 principais*/
-    margin: 10px;
-    text-align: center;
-    margin-top: 60px;
-    padding: 20px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.363);
-    font-family: sans-serif;
-    
-}
+
 .topnav /*Menu de nav*/{
   overflow: hidden;
   background-color: #f5f5e7;
@@ -141,18 +132,7 @@ main {
     list-style-type: none;
 }
 
-.maisvendidosp /*h1 produtos mais vendidos*/ {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.maisvendidos /*lista de medicamentos*/ {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-    list-style-type: none;
 
-}
 .logoaval{ /*logodrogazao*/
     text-align: center;
     
